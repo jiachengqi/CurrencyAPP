@@ -8,11 +8,17 @@ This project uses CMake to manage dependecies, if you don't have it installed ru
 ~~~
 brew install cmake
 ~~~
-or run it directly in CLion.
 
-To build the project, simply run the shell script:
+
+To build the project, run the shell script via terminal:
 ~~~
 bash start.sh
+~~~
+
+Optional : if you are using CLion to run the application, run the following command to rectrive the submodule:
+~~~
+git submodule init
+git submodule update
 ~~~
 
 To run the command line application:
